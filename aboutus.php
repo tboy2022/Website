@@ -11,7 +11,7 @@
 	</a>
 <!--nav-->
   <li class="dropdown"> <!--dropdown content-->
-	<a class="dropbtn" href="">Home</a>
+	<a class="dropbtn" href="">Home gnome</a>
     <div class="dropdown-content">
 		<a href="latest.php">Latest</a>
 		<a href="trending.php">Trending</a>
