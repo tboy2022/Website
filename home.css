@@ -1,0 +1,187 @@
+
+header { 
+	position: static;
+	padding: 3px; 
+	clear: both;
+	margin-bottom: 200px;
+	text-align: center;
+}
+
+article { 
+	text-align: center;
+	font-size: 20px;
+}
+logo {
+  position: absolute;
+}
+
+body {
+	background-color: grey;
+}
+/* headering one*/
+h1 {
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+}
+h2 {
+	color: black;
+	text-align: center;
+}
+h3 {
+	color: black ;
+	text-align: center;
+}
+/* small text*/ 
+pre {
+	font-family: abadi;
+	font-size: 17px;
+}
+/* navigation bar*/
+nav {
+	text-align: center;
+	position: static;
+	margin: auto;
+	width: 100%;
+
+}
+
+footer {
+	text-align: center;
+	padding: 3px;
+	background-color: DarkSalmon;
+	color: white;
+	position: static;
+	clear: both;
+    margin-top: 200px;
+}
+
+/* dropdown button*/ 
+dropbtn {
+	text-align: center;
+	position: static;	
+	margin: auto;
+}
+/* list container*/ 
+ul {
+	position: static;
+	margin: auto;
+	width: 100%;
+	border: 3px solid #000000;
+	max-height: 150px;
+	background-color: green;
+}
+/* list objects*/
+li a {
+	position: static;
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	width: 1000px;
+}
+
+/* Change the link color on hover when over list*/
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+/* Change the link color on hover when over home*/
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+}
+
+/* display of list*/
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #3e4359;
+	color:white;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* keeps image in a frame, this will produce clean images */
+.slideshow-container {
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+}
+
+/*caption styling*/
+.text {
+	color: white;
+	background: black;
+	font-size: 18px;
+	padding: 8px 10px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	font-family: abadi;
+}
+/* slideshow number styling*/
+.number {
+	color: #533b9c;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+	font-family: abadi;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #ddd
+}
+
+.btn.grid {
+	background-color: #666;
+	color: white;
+}
+
+.productimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
