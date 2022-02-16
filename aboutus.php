@@ -9,6 +9,7 @@
 		<img src="InsertImage" alt="logo" height="100" width="100">
 		</div>
 	</a>
+	
 <!--nav-->
   <li class="dropdown"> <!--dropdown content-->
 	<a class="dropbtn" href="">Home</a>
@@ -17,15 +18,14 @@
 		<a href="trending.php">Trending</a>
 		<a href="highestrated.php">Highest rated</a>
 		<a href="upcoming.php">Upcoming</a>
+		<a href="catagories.php"> Catagories </a>
 		<a href="aboutus.php"> About Us</a>
-		
 	</div>
 	</li>
 </ul>
 </header>
+
 <body>
 <h1>About Us</h1>
-
 </body>
 </html>
-{\rtf1}

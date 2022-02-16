@@ -11,14 +11,14 @@
 	</a>
 <!--nav-->
   <li class="dropdown"> <!--dropdown content-->
-	<a class="dropbtn">Home</a>
+	<a class="dropbtn" href="">Home</a>
     <div class="dropdown-content">
 		<a href="latest.php">Latest</a>
 		<a href="trending.php">Trending</a>
 		<a href="highestrated.php">Highest rated</a>
 		<a href="upcoming.php">Upcoming</a>
+		<a href="catagories.php"> Catagories </a>
 		<a href="aboutus.php"> About Us</a>
-		
 	</div>
 	</li>
 </ul>

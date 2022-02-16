@@ -19,13 +19,13 @@
 		<a href="upcoming.php">Upcoming</a>
 		<a href="catagories.php"> Catagories </a>
 		<a href="aboutus.php"> About Us</a>
+		
 	</div>
 	</li>
 </ul>
 </header>
 <body>
-<h1>Highest Rated</h1>
+<h1>catagories</h1>
 
 </body>
 </html>
-{\rtf1}
