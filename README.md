@@ -14,3 +14,8 @@ Upload work as a branch, therefore it can be reviewed and added to the Main :)
 
 Find the TO TO LIST on ....
 Projects Tab > Project.example
+
+---------------------------
+
+Check ISSUES , to check for current problems
+
