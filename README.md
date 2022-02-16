@@ -8,3 +8,5 @@ Legend
 ( - ) added feature
 
 ( + ) needs fixing
+---------------------------
+Upload work as a branch, therefore it can be reviewed and added to the Main :)
