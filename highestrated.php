@@ -1,31 +1,82 @@
 <html DOCTYPE!>
 <html>
-<header>
+
+<head>
 <link rel="stylesheet" type="text/css" href="home.css"> <!--for external styling-->
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-<ul>
-	<a class="nav" > <!-- logo -->
-		<div class="logo">
-		<img src="InsertImage" alt="logo" height="100" width="100">
-		</div>
-	</a>
-<!--nav-->
-  <li class="dropdown"> <!--dropdown content-->
-	<a class="dropbtn">Home</a>
-    <div class="dropdown-content">
-		<a href="latest.php">Latest</a>
-		<a href="trending.php">Trending</a>
-		<a href="highestrated.php">Highest rated</a>
-		<a href="upcoming.php">Upcoming</a>
-		<a href="aboutus.php"> About Us</a>
-		
-	</div>
-	</li>
-</ul>
+</head>
+
+
+<div class="header">
+<header>
+  <h1>Realist Gamers</h1>
+  <h2>Highest Rated Games</h2>
+
+</div>
+
+<nav class="topnav">
+  <a href="index.php">Home</a>
+  <a href="categories.php">Categories</a>
+  <a href="trending.php">Trending Games</a>
+  <a href="highestrated.php">Highest Rated Games</a>
+  <a href="upcoming.php">Upcoming Games</a>
+  <a href="aboutus.php">About Us</a>
+  
+</nav>
+
 </header>
+
 <body>
-<h1>Highest Rated</h1>
+
+<center>
+<p id="trend_high-p">Introduction to Highest Page</p>
+</center>
+
+<br>
+<div class="game-container">
+
+  
+  <div class="grid-game"> 
+  <a href = "gamereview_template.php">
+  <h2>Game title</h2>
+  <h3>Rating: x / 5 </h3>
+  <h3>Age: x </h3>
+  </a>
+  <div class="game-desc">Add a description of the image here</div>
+  </div>
+  
+  <div class="grid-game"> 
+  <a href = " GAME DIRECTORY">
+  <h2>Game title</h2>
+  <h3>Rating: x / 5 </h3>
+  <h3>Age: x </h3>
+  </a>
+  <div class="game-desc">Add a description of the image here</div>
+  </div>
+  
+  <div class="grid-game"> 
+  <a href = " GAME DIRECTORY">
+  <h2>Game title</h2>
+  <h3>Rating: x / 5 </h3>
+  <h3>Age: x </h3>
+  </a>
+  <div class="game-game">Add a description of the image here</div>
+  </div>
+  <div class="grid-game"> 
+  <a href = " GAME DIRECTORY">
+  <h2>Game title</h2>
+  <h3>Rating: x / 5 </h3>
+  <h3>Age: x </h3>
+  </a>
+  <div class="game-game">Add a description of the image here</div>
+  </div>
+  </div>
+  
+<!-- CREDITS --> 
+<div class="footer">
+  <p>Footer</p>
+  <p> type here </p>
+</div>
 
 </body>
 </html>
-{\rtf1}
+
