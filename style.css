@@ -11,7 +11,7 @@ body {
 .header {
   color: white;
   background-color: grey; /* For browsers that do not support gradients */
-  background-image: linear-gradient(blue , grey);
+  background-image: linear-gradient(red , grey);
   padding: 20px;
   text-align: center;
 }
@@ -19,7 +19,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: blue;
+  background-color: red;
 }
 
 /* Style the topnav links */
@@ -59,7 +59,7 @@ body {
 }
 
 div.gallery {
-  border: 5px solid blue;
+  border: 5px solid red;
   box-shadow: 5px 10px black;
 }
 
@@ -111,7 +111,7 @@ div.desc {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: Blue;
+   background-color: red;
    color: white;
    text-align: center;
 }
@@ -119,14 +119,14 @@ div.desc {
 .motto {
   width: 300px;
   height: 100px;
-  background: blue;
+  background: red;
   position: relative;
   animation: barmove 2s infinite;
   animation-delay: 0.5s;
   text-align: center;
   font-family: Georgia, serif;
   color: white;
-  border: 10px solid blue;
+  border: 10px solid red;
   padding: 5px;
   background-clip: content-box;
   border-radius: 25px;
@@ -142,12 +142,12 @@ div.desc {
   display: grid;
   grid-template-columns: auto auto ;
   background-color: blue; /* For browsers that do not support gradients */
-  background-image: linear-gradient(blue, red, blue);
+  background-image: linear-gradient(red, blue, red);
   padding: 10px;
 }
 .grid-genre {
   background-color: white;
-  border: 2px solid blue;
+  border: 2px solid red;
   padding: 20px;
   font-size: 17px;
   text-align: center;
@@ -157,13 +157,13 @@ div.desc {
   display: grid;
   grid-template-columns: auto auto auto auto;
   background-color: blue; /* For browsers that do not support gradients */
-  background-image: linear-gradient(blue, red, blue);
+  background-image: linear-gradient(red, blue, red);
   padding: 10px;
   
 }
 .grid-game {
   background-color: white;
-  border: 2px solid blue;
+  border: 2px solid red;
   padding: 20px;
   font-size: 17px;
   text-align: center;
@@ -172,4 +172,61 @@ div.desc {
 .game-desc {
   padding: 2px;
   text-align: center;
+}
+
+/* Game Review Page */
+.review-container {
+  display: grid;
+  grid-template-columns: auto ;
+  background-color: blue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, white, red);
+  padding: 10px;
+}
+
+/* Style the header */
+.gametitle {
+  background-color: #f1f1f1;
+  background-image: linear-gradient(red, white, red);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.opinion {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
 }
