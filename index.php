@@ -1,101 +1,56 @@
-<html DOCTYPE!>
+<?php include('functions.php') ?>
+<?php 
+	include_once 'dbh.php';
+?>
 <html>
-
 <head>
-<link rel="stylesheet" type="text/css" href="home.css"> <!--for external styling-->
+    <meta charset="UTF-8">
+    <title>PHP File Upload</title>
 </head>
-
-
-<div class="header">
-<header>
-  <h1>Realist Gamers</h1>
-
-</div>
-
-<nav class="topnav">
-  <a href="index.php">Home</a>
-  <a href="categories.php">Categories</a>
-  <a href="trending.php">Trending Games</a>
-  <a href="highestrated.php">Highest Rated Games</a>
-  <a href="upcoming.php">Upcoming Games</a>
-  <a href="aboutus.php">About Us</a>
-</nav>
-
-
-</header>
-
 <body>
 
-<!-- MOTTO , moving bar-->
-<br>
-
-<div class ="motto"> <h2>Keeping it REAL</h2></div>
-
-<!-- LOGIN LINK , SIGN UP LINK -->
-<br>
-
-<center>
-<button class="button button2"><a href = "LOGIN/SIGNUP">Sign Up</a></button>
-<button class="button button2"><a href = "LOGIN/SIGNUP">Sign in</a></button>
-</center>
-
-<br>
-
-<!--Slideshow Of Top Games -->
-
-<div class="topgames">
-  <div class="gallery">
-    <a target="_blank" href="INSERT IMG LINK">
-      <img src="INSERT IMG" alt="INSERT GAME NAME" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-
-<div class="topgames">
-  <div class="gallery">
-    <a target="_blank" href="INSERT IMG LINK">
-      <img src="INSERT IMG" alt="Forest" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="topgames">
-  <div class="gallery">
-    <a target="_blank" href="INSERT IMG LINK">
-      <img src="INSERT IMG" alt="Northern Lights" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="topgames">
-  <div class="gallery">
-    <a target="_blank" href="INSERT IMG LINK">
-      <img src="INSERT IMG" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="clearfix"></div>
-
-<br> 
-
-<!-- Article Section -->
-
-<br>
-
-</br>
+<?php
+	$sql = "SELECT * FROM users";
+	$result = mysqli_query($conn, $sql);
+	if (mysqli_num_rows($result) > 0){
+		while ($row = mysqli_fetch_assoc($result)) {
+			$id = $row['id'];
+			$sqlImg = "SELECT * FROM profileimg WHERE user= ''";
+			$resultImg = mysqli_query($conn, $sqlImg);
+			while($rowImg = mysqli_fetch_assoc($resultImg)) {
+				echo "<div>";
+			if ($rowImg['status'] == 0) {
+				echo "<img src='uploads/profile".$id.".jpg'>";
+			} else {
+				echo "<img src='uploads/default.jpg'>";
+			}
+				echo $row['username'];
+			echo "</div>";
+			}
+		}
+	} 
+	if (isset($_SESSION['id'])) {
+		if ($_SESSION['id'] == 1 ) {
+			echo "upload an image";
+		}
+		echo "<form action='fileuploadscript.php' method='post' enctype='multipart/form-data'>
+        <input type='file' name='file' id='fileToUpload'>
+        <button type='submit' name='submit'>Start Upload</button>
+		</form>";
+	}
+?>
 
 
-<!-- CREDITS --> 
-<div class="footer">
-  <p>Footer</p>
-  <p> type here </p>
-</div>
+
+<p>Login as user!</p>
+<form action="login.php" method="POST">
+	<button type="submit" name="submitLogin">Login</button>
+</form>
+
+<p>Logout as user!</p>
+<form action="logout.php" method="POST">
+	<button type="submit" name="submitLogout">Sign Out</button>
+</form>
 
 </body>
 </html>
