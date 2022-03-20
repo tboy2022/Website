@@ -44,44 +44,45 @@ Frequently Asked Questions...
 </details>
 
 <details>
-  <summary>FAQ 2</summary>
+  <summary>Q: How exactly is a game rated? </summary>
   <div class="faq__content">
-    <p>Answer 2</p>
+    <p>A: Every game is rated out of 5 stars with 0 being the lowest score for a heavily panned poor game and with 5 being the maximum score available with the game being fully or nearly flawless and insanely enjoyable. </p>
   </div>
 </details>
 
 <details>
-  <summary>FAQ 3</summary>
+  <summary>Q: What is under consideration with these reviews and scores? </summary>
   <div class="faq__content">
-    <p>Answer 3</p>
+    <p>A: Every aspect of a game is considered in a review with ease of use, performance, plot, audio, visuals, features, running time, potential engagement and entertainment all being factors under consideration in a review and whether we recommend it or not.  </p>
   </div>
 </details>
 
 <details>
-  <summary>FAQ 4</summary>
+  <summary>Q: What kind of games do you review here?</summary>
   <div class="faq__content">
-    <p>Answer 4</p>
+    <p>A: We review all kinds of games on this website with our broad genres of games including Action, Adventure, Sports, Sci-Fi, RPG games and Puzzle as well as FPS games and Horror. </p>
   </div>
 </details>
 
 <details>
-  <summary>FAQ 5</summary>
+  <summary>Q: Is every game reviewed on the website child-friendly?</summary>
   <div class="faq__content">
-    <p>Answer 5</p>
+    <p>A: No, not every game reviewed within’ this website is child-friendly as we do review heavier and darker games that are certainly not appropriate to be exposed by children and young adults.  We review games that all PEGI rated and discuss games each of the age ratings which are 3, 7, 12, 16 or 18. Although, at the top of each review under the game title, there will be an age rating listed which can leave you reassured if a game is appropriate.  </p>
   </div>
 </details>
 <details>
-  <summary>FAQ 6</summary>
+  <summary>Q: Do you only review new, fresh and upcoming games? </summary>
   <div class="faq__content">
-    <p>Answer 6</p>
+    <p>A: While we do certainly review new and upcoming video games, we are not limited to that at all with our aim being reviewing, giving opinion and educating on games we believe the general public are interested in. Therefore we do review older games that can be months, years or decades old if there is enough interest there.  </p>
   </div>
 </details>
 </div>
 
 <!-- CREDITS --> 
 <div class="footer">
-  <p>Footer</p>
-  <p> type here </p>
+  <p>-Authors: Samir, Taheem, Jack & Cai-
+  <br>
+  -<a href="aboutus.php">Click Here </a> for About us Page-</p>
 </div>
 
 </body>
