@@ -107,7 +107,7 @@ div.desc {
 }
 
 .footer {
-   position: fixed;
+   position: relative;
    left: 0;
    bottom: 0;
    width: 100%;
@@ -279,7 +279,6 @@ details[open] summary ~ * {
   text-align: center;
   border-radius: 2px;
   padding: 16px;
-  
   font-size: 17px;
 
 }
